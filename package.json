@@ -1,0 +1,27 @@
+{
+  "name": "express-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "set ENV='local' && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aniket-Bhat/express-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aniket-Bhat/express-template/issues"
+  },
+  "homepage": "https://github.com/Aniket-Bhat/express-template#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express-validator": "^6.15.0",
+    "mongoose": "^7.0.1"
+  }
+}
